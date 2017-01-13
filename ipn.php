@@ -8,7 +8,7 @@
  * All rights and copyrights are owned by Sevio Solutions®
  */
 
-//SETTING INS DASHBOARD
+//SETTING INS IN DASHBOARD
 //UPPERCASE(MD5_ENCRYPTED(sale_id + vendor_id + invoice_id + Secret Word)); Can be used to validate authenticity of message
 
 $stringHash =  strtoupper(md5($_POST['sale_id'] . $_POST['vendor_id'] . $_POST['invoice_id'] . SECRET_WORD
